@@ -52,42 +52,40 @@ body {
     justify-content: space-between;
 }
 
-input {
-    position: absolute;
-    /* visibility: hidden; */
-}
-
-label {
-    position: relative;
-    width: 49%;
-    height: 100%;
-    background: #036CBD;
-    display: inline-block;
-    border-radius: 0.8vw;
-}
-
-#r1 {
-    right: 10px;
-}
-
-#r2 {
-    right: 20px;
-}
-
 .radio div {
-    position: absolute;
-    top: 9%;
-    color: white;
+    background: #036CBD;
+    width: 49%;
+    border-radius: 0.8vw;
     text-align: center;
     font-family: 'MuseoModerno', sans-serif;
-    font-size: 1.4vw;
-    padding: 11%;
-}
-
-#student {
-    left: 5%;
+    font-size: 120%;
+    color: white;
+    padding: 6.5% 0%;
 }
 
 #admin {
-    left: 48%;
+    visibility: hidden;
 }
+
+label {
+    /* background: #000; */
+    width: 37%;
+    height: 11%;
+    position: absolute;
+    border-radius: 0.8vw;
+    z-index: 1;
+}
+
+.r1 {
+    left: 12%;
+}
+
+.r2 {
+    left: 50.7%;
+}
+
+input {
+    position: absolute;
+    right: 0%;
+}
+
